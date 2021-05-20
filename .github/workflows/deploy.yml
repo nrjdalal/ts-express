@@ -1,0 +1,9 @@
+name: express-deploy
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  job1:
+    runs-on: self-hosted
