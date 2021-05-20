@@ -1,11 +1,11 @@
-name: express-deploy
+name: alfa
 
 on:
   push:
     branches: [master]
 
 jobs:
-  job1:
+  alpha:
     runs-on: self-hosted
 
     steps:
