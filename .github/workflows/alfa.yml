@@ -9,5 +9,5 @@ jobs:
     runs-on: self-hosted
 
     steps:
-      - name: express-deploy
-        run: echo "express-deploy"
+      - name: cloning dist
+        run: gh repo clone dist
