@@ -7,3 +7,6 @@ on:
 jobs:
   job1:
     runs-on: self-hosted
+
+    steps:
+      - name: express-deploy
